@@ -1,6 +1,6 @@
-# hotmap
+# wormholes
 
-[Height Optimized Trie](https://dl.acm.org/doi/10.1145/3506692) (HOT) in Rust. 
+wormholes (wormhole was taken :/) is a rust implementation of the [wormhole ordered index](https://dl.acm.org/doi/epdf/10.1145/3302424.3303955), an in-memory map that combines a hash table, trie, and sorted leaf list to do range-capable lookups in O(log key-length).
 
 # License 
 
