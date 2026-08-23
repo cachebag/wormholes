@@ -1,6 +1,15 @@
 [package]
-name = "hotmap"
-version = "0.1.0"
+name = "wormholes"
+version = "0.0.1"
 edition = "2024"
+authors = ["Akrm Al-Hakimi <akrm@cachebag.sh>"]
+description = "Wormhole ordered index in Rust: fast in-memory ordered map with O(log L) lookups"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cachebag/wormholes"
+keywords = ["ordered-map", "index", "data-structures", "wormhole", "btree"]
+categories = ["data-structures"]
 
 [dependencies]
+
+[dev-dependencies]
+proptest = "1.11.0"
